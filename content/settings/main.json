@@ -1,0 +1,62 @@
+{
+  "footer": {
+    "contactAddress": "Studio No. 42, Design District, Bangalore, India",
+    "contactEmail": "hello@studiopoetics.com",
+    "hours": "Open daily, 11:00–22:00",
+    "socialLinks": [
+      {
+        "platform": "INSTAGRAM",
+        "url": "https://instagram.com"
+      },
+      {
+        "platform": "FACEBOOK",
+        "url": "https://facebook.com"
+      },
+      {
+        "platform": "TWITTER",
+        "url": "https://twitter.com"
+      },
+      {
+        "platform": "YOUTUBE",
+        "url": "https://youtube.com"
+      },
+      {
+        "platform": "TELEGRAM",
+        "url": "https://telegram.org"
+      }
+    ],
+    "galsscapeDescription": "Discover our immersive digital experience platform for creative exploration.",
+    "galsscapeUrl": "https://galsscape.com"
+  },
+  "home": {
+    "heroTitle": "DESIGN\nORDINARY\nEXPERIENCE\nCURIOSITY",
+    "heroDescription": "Studio Poetics is a sense-making design practice. We explore the beauty in everyday objects and experiences through thoughtful design inspired by Kenya Hara's concepts of \"White\" and \"Exformation.\"",
+    "services": [
+      {
+        "number": "01",
+        "title": "Brand Identity & Design Systems",
+        "image": "/placeholder.svg?height=600&width=1000"
+      },
+      {
+        "number": "02",
+        "title": "Product Design & Development",
+        "image": "/placeholder.svg?height=600&width=1000"
+      },
+      {
+        "number": "03",
+        "title": "Material Research & Exploration",
+        "image": "/placeholder.svg?height=600&width=1000"
+      },
+      {
+        "number": "04",
+        "title": "Exhibition & Installation Design",
+        "image": "/placeholder.svg?height=600&width=1000"
+      },
+      {
+        "number": "05",
+        "title": "Design Workshops & Education",
+        "image": "/placeholder.svg?height=600&width=1000"
+      }
+    ]
+  }
+}
