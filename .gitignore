@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.env
+.env.local
+.DS_Store
+*.pem
+.vercel
+.tina
+__generated__
+

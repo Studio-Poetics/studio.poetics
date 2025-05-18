@@ -4,6 +4,10 @@ import { verify } from "jsonwebtoken"
 // Paths that require authentication
 const PROTECTED_PATHS = ["/admin", "/api/tina"]
 
+if (!process.env.JWT_SECRET) {
+  throw new Error("JWT_SECRET environment variable is not configured")
+}
+
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
@@ -22,7 +26,7 @@ export function middleware(request: NextRequest) {
 
     try {
       // Verify the token
-      verify(token, process.env.JWT_SECRET || "your-secret-key")
+      verify(token, process.env.JWT_SECRET)
       return NextResponse.next()
     } catch (error) {
       // If token is invalid, redirect to login
